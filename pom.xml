@@ -45,6 +45,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/aws-sdk-java -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>aws-sdk-java</artifactId>
+			<version>2.16.1</version>
+			<type>pom</type>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>dynamodb</artifactId>
+			<version>2.16.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb-enhanced -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>dynamodb-enhanced</artifactId>
+			<version>2.16.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
